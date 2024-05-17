@@ -1,0 +1,109 @@
+/* style.css */
+
+/* Set font family and size */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+/* Set background color and image */
+.stApp {
+    background-color: #f5f5f5;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Style the sidebar */
+.sidebar .sidebar-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the sidebar title */
+.sidebar .sidebar-title {
+    color: #1f77b4;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style the sidebar sliders */
+.sidebar .stSlider {
+    margin-bottom: 20px;
+}
+
+/* Style the sidebar selectbox */
+.sidebar .stSelectbox {
+    margin-bottom: 20px;
+}
+
+/* Style the sidebar button */
+.sidebar .stButton button {
+    background-color: #1f77b4;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.sidebar .stButton button:hover {
+    background-color: #1a6091;
+}
+
+/* Style the main content */
+.main .stMarkdown h1 {
+    color: #1f77b4;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.main .stMarkdown h2 {
+    color: #1f77b4;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.main .stTable {
+    margin-bottom: 20px;
+}
+
+.main .stMetric {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.main .stMetric label {
+    color: #1f77b4;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main .stMetric value {
+    color: #2c3e50;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Style the expander */
+.stExpander {
+    margin-top: 40px;
+}
+
+.stExpander summary {
+    color: #1f77b4;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.stExpander .stTable {
+    margin-top: 10px;
+}
